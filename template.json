@@ -22,7 +22,7 @@
     },
     "instance_type": "t2.micro",
     "ssh_username": "ubuntu",
-    "ami_name": "hamza-elaouane-nodejs-{{`version`}}"
+    "ami_name": "hamza-elaouane-nodejs-{{isotime \"2006-01-02\"}}"
   }],
   "provisioners": [
     {
